@@ -53,7 +53,7 @@ npm install axios
 
 ## 🖥️ <a name="deploy"> Deploy </a>
 
-Acesse o projeto ao vivo na Vercel: [Projeto ](https://vai-na-web-,,,,,,,,,,,,,.vercel.app/).
+Acesse o projeto ao vivo na Vercel: [Projeto ](https://vai-na-web-ap-ifixe.vercel.app/).
 
 
 ## 📌 <a name="observações"> Observações </a>
