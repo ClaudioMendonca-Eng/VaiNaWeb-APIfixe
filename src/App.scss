@@ -1,0 +1,122 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url('assets/Rick-and-Morty-Doodle-Peel-Stick-Wallpaper.jpeg') repeat fixed;
+    background-size: 500px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .app {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  h1 {
+    border: 2px solid #68d15a;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ffffffce;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #333;
+  }
+  
+  .catalogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    border: 2px solid #68d15a;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ffffffce;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .personagem-img {
+    width: 80%;
+    max-width: 200px;
+    margin: 0 auto 10px;
+    display: block;
+  }
+  
+  .paginacao {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    
+    span {
+      flex: 1;
+      text-align: center;
+      align-self: center;
+    }
+    
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      background: linear-gradient(135deg,  #68d15a, #72c068);
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.3s ease;
+      
+      &:hover:not(:disabled) {
+        background: linear-gradient(135deg, #68d15a, #72c068);
+        transform: translateY(-2px);
+      }
+      
+      &:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+        transform: none;
+      }
+    }
+  }
+  footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(104, 209, 90, 0.897);
+    text-align: center;
+    border-radius: 8px;
+  
+    .boxInformacoes {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 0.9rem;
+  
+      p {
+        margin: 0;
+      }
+  
+      a {
+        color: #02035e;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
